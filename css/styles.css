@@ -47,33 +47,25 @@ html{
     60% {
       transform: translateY(-45px);
     }
+ }
+
+ .about{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
+ }
+
+ .services{
+    text-align: center;
+    background-image: url("../img/backgrounds/s_image.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-body { 
-    background: #fff;
-}
 
-.banner {
-    
-}
-
-.logo {
-    background-image: url('img/logo/logo.jpg');
-}
-
-strong {
-    text-align: center;
-}
-
-span {
-    text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    display: inline-block;
-}
-
-p {
-    text-align: center;
-    display: inline-block;
-}
+  #servicesoverlay{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }  
